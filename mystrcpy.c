@@ -1,6 +1,6 @@
 
 
-int mystrcpy(char str1,char str2)
+int mystrcpy(char str1[] ,char str2[])
 {
 
     printf("enter str1: ");
