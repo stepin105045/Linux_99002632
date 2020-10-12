@@ -1,8 +1,5 @@
-
-
-int mystrcpy(char str1[] ,char str2[])
+void mystrcpy(char str1[] ,char str2[])
 {
-
     printf("enter str1: ");
     fgets(str1, sizeof(str1), stdin);
 
@@ -12,5 +9,4 @@ int mystrcpy(char str1[] ,char str2[])
     }
     str2[i] = '\0';
     printf("str2: %s", str2);
-    return 0;
 }
