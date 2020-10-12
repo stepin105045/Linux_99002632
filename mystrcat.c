@@ -1,4 +1,4 @@
-int mystrcat(char str1[], char str2[])
+void mystrcat(char str1[], char str2[])
 {
     printf("enter str1: ");
     fgets(str1, sizeof(str1), stdin);
@@ -17,6 +17,4 @@ int mystrcat(char str1[], char str2[])
     str1[length] = '\0';
     printf("After concatenation: ");
     puts(str1);
-
-    return 0;
 }
