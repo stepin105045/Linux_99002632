@@ -1,4 +1,4 @@
-int mystrlen(char str)
+int mystrlen(char str[])
 {
     printf("Enter a string: \n");
     scanf("%s",str);
