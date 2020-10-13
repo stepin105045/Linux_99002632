@@ -4,9 +4,11 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <stdarg.h>
 
 long factorial(int num);
 int isPalindrome(int num);
 int isPrime(int n);
+int vsum(int number,...);
 
 #endif
