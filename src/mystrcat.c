@@ -1,3 +1,4 @@
+#include "mystring.h"
 void mystrcat(char str1[], char str2[])
 {
    // printf("enter str1: ");
