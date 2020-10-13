@@ -1,6 +1,6 @@
-int flip(int bit)
+#include"bitmask.h"
+
+int flip(int n, int k)
 {
-    int n;
-    n^=bit;
-    return n;
+ return (n^ (1<< (k-1)));
 }
