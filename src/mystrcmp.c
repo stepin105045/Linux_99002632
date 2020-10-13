@@ -1,8 +1,8 @@
 void mystrcmp(char str1[] ,char str2[])
 {
-   printf("Enter two strings : \n");
-   gets(str1);
-   gets(str2);
+   //printf("Enter two strings : \n");
+   //gets(str1);
+   //gets(str2);
 
    int count = 0;
    while (str1[count] == str2[count] && str1[count] != '\0')
