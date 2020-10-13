@@ -7,7 +7,7 @@
 
 int set(int bit,int n);
 int reset (int bit,int n);
-int flip(int bit);
+int flip(int n, int k);
 void query(int bit, int n);
 
 #endif
