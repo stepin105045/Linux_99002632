@@ -1,14 +1,15 @@
-
 #include "myutils.h"
 
 int main()
 {
-    int num;
+    long int num;
+    int i;
     printf("Enter the Number");
     scanf("%d",&num);
-    printf("\n Prime no:%d",isPrime(num));
-    printf("\n Factorial of num :%d",factorial(num));
-    printf("\n Palindrome :%d",isPalindrome(num));
-    printf("\n Vsum is:%d",vsum(3,3,4,5));
+    i=isPrime(num);
+    print("%d",i);
+    printf("\n Factorial of num :%ld",factorial(num));
+    printf("\n Palindrome :%ld",isPalindrome(num));
+    printf("\n Vsum is:%ld",vsum(3,3,4,5));
     return 0;
 }
