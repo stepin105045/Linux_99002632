@@ -1,7 +1,7 @@
 void mystrcpy(char str1[] ,char str2[])
 {
-    printf("enter str1: ");
-    fgets(str1, sizeof(str1), stdin);
+    //printf("enter str1: ");
+    //fgets(str1, sizeof(str1), stdin);
 
     for (ind = 0; str1[ind] != '\0'; ++ind)
     {
