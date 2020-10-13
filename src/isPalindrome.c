@@ -1,3 +1,4 @@
+#include"myutils.h"
 int isPalindrome(int num)
 {
     int rnum=0,rem,cp;
