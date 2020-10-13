@@ -1,3 +1,4 @@
+#include "mystring.h"
 void mystrcmp(char str1[] ,char str2[])
 {
    //printf("Enter two strings : \n");
