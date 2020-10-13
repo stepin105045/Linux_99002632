@@ -1,3 +1,4 @@
+#include "mystring.h"
 int mystrlen(char str[])
 {
     //printf("Enter a string: \n");
